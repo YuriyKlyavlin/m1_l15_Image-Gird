@@ -30,6 +30,10 @@
 }
 [class*="ba-width-"] > img:hover {
 	box-shadow: 0 0 30px rgba(0, 0, 0, .5);
+	transition: box-shadow .15s linear;
+}
+[class*="ba-width-"] > img {
+	transition: box-shadow .15s linear;
 }
 .ba-width-1-2 {
 	width: 50%;
